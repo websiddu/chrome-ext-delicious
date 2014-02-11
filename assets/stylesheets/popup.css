@@ -65,15 +65,15 @@
 }
 /* Global */
  html {
-  margin: 2px;
-  padding: 0 0 4px 0;
+  margin: 0;
+  padding: 0;
 }
 body {
   background: white url(../images/atlanta-skyline-bw.png) no-repeat center;
   background-position-y: 0;
   color: #444;
-  font-family:'helvetica', 'arial', sans-serif;
-  font-weight: normal;
+  font-family: 'Open Sans', 'helvetica', 'arial', sans-serif;
+  font-weight: 200;
   margin: 0;
   overflow: hidden;
   padding: 0;
@@ -83,19 +83,18 @@ body {
 #content > footer {
   background-color: #eee;
   border-top: 1px solid #fff;
-  box-shadow: inset 0 7px 7px -6px #bbb;
   color: #bbb;
-  font-size: 13px;
+  font-size: 11px;
   position: relative;
   text-align: center;
 }
 #content > footer p a {
   color: #bbb;
-  font-size: 13px;
+  font-size: 11px;
 }
 #content > footer p {
   margin: 0;
-  padding: 12px 0;
+  padding: 4px 0;
 }
 #content > footer aside.share {
   position: absolute;
@@ -173,7 +172,6 @@ form input, form textarea {
   -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
   background-color: #fafafa;
   border: 1px solid #cccccc;
-  font-family:'helvetica', 'arial', sans-serif;
   font-size: 16px;
   margin: 0 0 5px;
   padding: 7px 5px;
@@ -214,7 +212,7 @@ button, a.button {
   list-style-type: none;
   margin: 0;
   min-width: 100px;
-  padding: 15px;
+  padding: 6px 15px;
   position: relative;
   text-align: center;
 }
@@ -261,8 +259,7 @@ p.error {
 /* Nav */
  nav {
   background-color: #285da7;
-  box-shadow: inset 0 -7px 7px -6px #08254D;
-  height: 55px;
+  height: 40px;
   padding: 0;
   position: relative;
   z-index: 1;
@@ -280,8 +277,9 @@ nav ul li a.button {
   background-color: transparent;
   color: #C0D6F5;
   overflow: hidden;
-  padding: 20px;
+  padding: 10px 20px;
   position: relative;
+  font-size: 15px;
 }
 nav ul li a.selected, nav ul li a:hover {
   color: #fff;
@@ -319,6 +317,12 @@ form input:focus:invalid {
 }
 header span.private {
   margin: 0;
+}
+label {
+  font-size: 12px;
+}
+input[type="checkbox"] {
+  vertical-align: middle;
 }
 span.tags {
   display: inline-block;
